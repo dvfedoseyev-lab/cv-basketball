@@ -434,12 +434,12 @@ export default function App() {
           To switch to A4, change the @page size in index.css to A4. */}
       <div className="hidden print:block w-full bg-white text-black font-sans" style={{ maxWidth: '100%' }}>
         {/* Header */}
-        <header className="border-b-2 border-navy-900 pb-3 mb-3 flex justify-between items-start">
+        <header className="border-b-2 border-navy-900 pb-2 mb-2 flex justify-between items-start">
           <div>
-            <h1 className="text-[28pt] font-display font-bold uppercase tracking-tight leading-none text-navy-900">Dmitry Fedoseev</h1>
-            <p className="text-[12pt] font-bold text-navy-800 mt-1 uppercase tracking-wider">High-Performance Basketball Leader</p>
-            <p className="text-[10pt] text-gray-600 mt-0.5">NCAA Division I | Player Development | Scouting | Analytics</p>
-            <div className="flex gap-4 mt-2 text-[9pt] text-gray-800 font-medium">
+            <h1 className="text-[24pt] font-display font-bold uppercase tracking-tight leading-none text-navy-900">Dmitry Fedoseev</h1>
+            <p className="text-[11pt] font-bold text-navy-800 mt-1 uppercase tracking-wider">High-Performance Basketball Leader</p>
+            <p className="text-[9pt] text-gray-600 mt-0.5">NCAA Division I | Player Development | Scouting | Analytics</p>
+            <div className="flex gap-4 mt-1.5 text-[8.5pt] text-gray-800 font-medium">
               <span>Boca Raton, FL</span>
               <span>•</span>
               <span>+1 (917) 345-6499</span>
@@ -447,7 +447,7 @@ export default function App() {
               <span>dv.fedoseyev@gmail.com</span>
             </div>
           </div>
-          <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-navy-900 shrink-0 bg-gray-100 flex items-center justify-center">
+          <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-navy-900 shrink-0 bg-gray-100 flex items-center justify-center">
             {/* Replace /profile.jpg with your actual image file in the public folder */}
             <img 
               src="/profile.jpg" 
@@ -459,28 +459,28 @@ export default function App() {
         </header>
 
         {/* Editable Summary */}
-        <section className="mb-4">
-          <p className="text-[10pt] leading-snug text-justify text-gray-800">
+        <section className="mb-3">
+          <p className="text-[9.5pt] leading-snug text-justify text-gray-800">
             High-performance basketball leader with over 20 years of international coaching and program leadership experience, including NCAA Division I and championship-winning teams. Expertise in player development, scouting, advanced analytics, and performance systems. Distinguished credentials include the ICAB Program (FIBA / USOPC / IOC) and FIBA FECC certification.
           </p>
         </section>
 
-        <div className="grid grid-cols-12 gap-6">
+        <div className="grid grid-cols-12 gap-5">
           {/* Left Column: Experience (Span 8) */}
-          <div className="col-span-8 space-y-4">
+          <div className="col-span-8 space-y-3">
             <section>
-              <h2 className="text-[12pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-1 mb-2">Selected Experience</h2>
+              <h2 className="text-[11pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-0.5 mb-1.5">Selected Experience</h2>
               
               {/* Experience Items */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 {/* Michigan */}
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="text-[10.5pt] font-bold text-gray-900">University of Michigan</h3>
-                    <span className="text-[9pt] font-medium text-gray-600">June 2024 – June 2025</span>
+                    <h3 className="text-[10pt] font-bold text-gray-900">University of Michigan</h3>
+                    <span className="text-[8.5pt] font-medium text-gray-600">June 2024 – June 2025</span>
                   </div>
-                  <p className="text-[9.5pt] font-semibold text-navy-800 italic mb-1">Graduate Assistant – Men’s Basketball | Boca Raton, FL</p>
-                  <ul className="list-disc ml-4 text-[9.5pt] leading-tight text-gray-800 space-y-0.5">
+                  <p className="text-[9pt] font-semibold text-navy-800 italic mb-0.5">Graduate Assistant – Men’s Basketball | Boca Raton, FL</p>
+                  <ul className="list-disc ml-4 text-[9pt] leading-tight text-gray-800 space-y-0">
                     <li>Big Ten Tournament Championship contribution</li>
                     <li>Player development support for Vladislav Goldin</li>
                     <li>Video scouting, analytics, tactical reports</li>
@@ -491,11 +491,11 @@ export default function App() {
                 {/* FAU */}
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="text-[10.5pt] font-bold text-gray-900">Florida Atlantic University</h3>
-                    <span className="text-[9pt] font-medium text-gray-600">Aug 2023 – May 2024</span>
+                    <h3 className="text-[10pt] font-bold text-gray-900">Florida Atlantic University</h3>
+                    <span className="text-[8.5pt] font-medium text-gray-600">Aug 2023 – May 2024</span>
                   </div>
-                  <p className="text-[9.5pt] font-semibold text-navy-800 italic mb-1">Graduate Assistant / Assistant Coach – Men’s Basketball</p>
-                  <ul className="list-disc ml-4 text-[9.5pt] leading-tight text-gray-800 space-y-0.5">
+                  <p className="text-[9pt] font-semibold text-navy-800 italic mb-0.5">Graduate Assistant / Assistant Coach – Men’s Basketball</p>
+                  <ul className="list-disc ml-4 text-[9pt] leading-tight text-gray-800 space-y-0">
                     <li>Frontcourt player development</li>
                     <li>March Madness support</li>
                     <li>Data-informed performance tracking</li>
@@ -505,11 +505,11 @@ export default function App() {
                 {/* Peresvet */}
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="text-[10.5pt] font-bold text-gray-900">BC Peresvet-SFU / Rostov-Don-SFU (Russia)</h3>
-                    <span className="text-[9pt] font-medium text-gray-600">2017 – 2022</span>
+                    <h3 className="text-[10pt] font-bold text-gray-900">BC Peresvet-SFU / Rostov-Don-SFU (Russia)</h3>
+                    <span className="text-[8.5pt] font-medium text-gray-600">2017 – 2022</span>
                   </div>
-                  <p className="text-[9.5pt] font-semibold text-navy-800 italic mb-1">Head Coach & Program Director</p>
-                  <ul className="list-disc ml-4 text-[9.5pt] leading-tight text-gray-800 space-y-0.5">
+                  <p className="text-[9pt] font-semibold text-navy-800 italic mb-0.5">Head Coach & Program Director</p>
+                  <ul className="list-disc ml-4 text-[9pt] leading-tight text-gray-800 space-y-0">
                     <li>4 consecutive Russian Super League 1 titles</li>
                     <li>EWBL Bronze Medal</li>
                     <li>Full program leadership and performance integration</li>
@@ -519,11 +519,11 @@ export default function App() {
                 {/* Dynamo Moscow */}
                 <div>
                   <div className="flex justify-between items-baseline">
-                    <h3 className="text-[10.5pt] font-bold text-gray-900">Dynamo Moscow (Russia)</h3>
-                    <span className="text-[9pt] font-medium text-gray-600">2015 – 2017</span>
+                    <h3 className="text-[10pt] font-bold text-gray-900">Dynamo Moscow (Russia)</h3>
+                    <span className="text-[8.5pt] font-medium text-gray-600">2015 – 2017</span>
                   </div>
-                  <p className="text-[9.5pt] font-semibold text-navy-800 italic mb-1">Head of Youth Training</p>
-                  <ul className="list-disc ml-4 text-[9.5pt] leading-tight text-gray-800 space-y-0.5">
+                  <p className="text-[9pt] font-semibold text-navy-800 italic mb-0.5">Head of Youth Training</p>
+                  <ul className="list-disc ml-4 text-[9pt] leading-tight text-gray-800 space-y-0">
                     <li>Recruited to head youth training, involving talent scouting, contract negotiations, and strategic team management.</li>
                     <li>Achieved a championship win in the Super League-2 and a bronze medal in the youth category.</li>
                   </ul>
@@ -532,13 +532,13 @@ export default function App() {
             </section>
 
             {/* Research & Publications (Print) */}
-            <section className="mt-4">
-              <h2 className="text-[12pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-1 mb-2">Research & Publications</h2>
-              <p className="text-[9.5pt] font-semibold text-navy-800 mb-1.5">
+            <section className="mt-3">
+              <h2 className="text-[11pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-0.5 mb-1.5">Research & Publications</h2>
+              <p className="text-[9pt] font-semibold text-navy-800 mb-1">
                 Author of 30+ scientific publications in basketball performance, scouting, and training methodology.
               </p>
-              <p className="text-[9.5pt] font-bold text-gray-900 mb-1">Selected publications:</p>
-              <ul className="list-disc ml-4 text-[9.5pt] leading-tight text-gray-800 space-y-0.5">
+              <p className="text-[9pt] font-bold text-gray-900 mb-0.5">Selected publications:</p>
+              <ul className="list-disc ml-4 text-[9pt] leading-tight text-gray-800 space-y-0">
                 <li>Digital Scouting Technologies in Game Sports (2021)</li>
                 <li>Adaptation of the training process of highly qualified women’s basketball teams (2021)</li>
                 <li>Competitive intensity and performance analysis in professional basketball</li>
@@ -548,10 +548,10 @@ export default function App() {
           </div>
 
           {/* Right Column: Education, Competencies, QR (Span 4) */}
-          <div className="col-span-4 space-y-4">
+          <div className="col-span-4 space-y-3">
             <section>
-              <h2 className="text-[12pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-1 mb-2">Education & Credentials</h2>
-              <ul className="space-y-2 text-[9.5pt] leading-tight text-gray-800">
+              <h2 className="text-[11pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-0.5 mb-1.5">Education & Credentials</h2>
+              <ul className="space-y-1.5 text-[9pt] leading-tight text-gray-800">
                 <li><span className="font-bold">MBA: Strategy & Org. Leadership</span><br/>Florida Atlantic University | Expected May, 2026</li>
                 <li><span className="font-bold">Ph.D. in Education</span><br/>Scientific report (dissertation): « Managing the training of qualified basketball players based on the analysis of competitive activities»<br/>Southern Federal University | 2020</li>
                 <li><span className="font-bold">Specialist Degree in Automation</span><br/>NUST MISIS | 2007</li>
@@ -561,8 +561,8 @@ export default function App() {
             </section>
 
             <section>
-              <h2 className="text-[12pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-1 mb-2">Core Competencies</h2>
-              <div className="flex flex-wrap gap-x-1.5 gap-y-1 text-[8.5pt] text-gray-800">
+              <h2 className="text-[11pt] font-bold uppercase tracking-wider text-navy-900 border-b border-gray-300 pb-0.5 mb-1.5">Core Competencies</h2>
+              <div className="flex flex-wrap gap-x-1 gap-y-0.5 text-[8pt] text-gray-800">
                 <span className="bg-gray-100 px-1.5 py-0.5 rounded border border-gray-200">Player Development</span>
                 <span className="bg-gray-100 px-1.5 py-0.5 rounded border border-gray-200">Video Scouting</span>
                 <span className="bg-gray-100 px-1.5 py-0.5 rounded border border-gray-200">Advanced Analytics</span>
@@ -576,11 +576,11 @@ export default function App() {
             </section>
 
             {/* QR URL Location */}
-            <section className="pt-4 mt-4 border-t border-gray-300 text-center">
-              <div className="inline-block p-1.5 border-2 border-navy-900 rounded-lg bg-white mb-1.5">
+            <section className="pt-3 mt-3 border-t border-gray-300 text-center">
+              <div className="inline-block p-1.5 border-2 border-navy-900 rounded-lg bg-white mb-1">
                 <QRCodeSVG 
                   value={PUBLIC_PROFILE_URL} 
-                  size={90}
+                  size={85}
                   bgColor={"#ffffff"}
                   fgColor={"#0a1128"}
                   level={"Q"}
